@@ -1,0 +1,237 @@
+/* Updated styles.css 
+:root {
+    --seed-oil-color: #8884d8;
+    --obesity-color: #82ca9d;
+    --testosterone-color: #ff7300;
+    --background-light: #f8f9fa;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-light);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #2d3436;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Section Styling 
+  .graph-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .graph-section:hover {
+    transform: translateY(-4px);
+  }
+  
+  /* Analysis Section 
+  .analysis-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--seed-oil-color);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin: 2rem 0;
+  }
+  
+  /* Tooltip Styling 
+  .recharts-tooltip {
+    background: white !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    padding: 1rem !important;
+  }
+  
+  /* Legend Styling 
+  .recharts-legend-item-text {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500 !important;
+  }
+
+  /* History Section Styling 
+.history-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+  }
+  
+  .history-section h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    color: #2d3436;
+  }
+  
+  .history-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .history-section ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  .history-section ul li {
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  /* Optional: Highlight the original purpose section 
+.history-section ul:first-of-type {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #8884d8;
+    margin-bottom: 1.5rem;
+  } */
+   /* Updated styles.css */
+
+/* Add Google Fonts via CSS (no index.html needed) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Sticky Navigation */
+.sticky-nav {
+  background: var(--primary-color);
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.sticky-nav .nav-link {
+  color: white !important;
+  margin: 0 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.sticky-nav .nav-link:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.sticky-nav .nav-link.active {
+  background: var(--accent-color);
+}
+
+:root {
+    --primary-color: #323433;
+    --secondary-color: #f8f9fa00;
+    --accent-color: #ff6f61;
+    --text-color: #aeaeae;
+    --text-color1:#131313;
+    --background-light: #ffffff;
+    --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color1);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(135deg, var(--primary-color), #00452e);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Section Styling */
+  .section {
+    background: var(--background-light);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+  }
+  
+  /* Graph Section */
+  .graph-section {
+    background: var(--background-light);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+  }
+  
+  /* Analysis Section */
+  .analysis-section {
+    background: var(--background-light);
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--accent-color);
+    box-shadow: var(--shadow);
+    margin: 2rem 0;
+  }
+  
+  /* Tooltip Styling */
+  .recharts-tooltip {
+    background: var(--background-light) !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    box-shadow: var(--shadow) !important;
+    padding: 1rem !important;
+  }
+  
+  /* Slider Styling */
+  .rc-slider-track {
+    background: var(--primary-color) !important;
+  }
+  
+  .rc-slider-handle {
+    border: 2px solid var(--primary-color) !important;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-section p {
+      font-size: 1rem;
+    }
+  
+    .section, .graph-section, .analysis-section {
+      padding: 1rem;
+    }
+  }
